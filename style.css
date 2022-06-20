@@ -1,0 +1,84 @@
+body{
+    background: #3f3f3f;
+}
+
+.form {
+  font-family: Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 16px;
+  background: #ffffff;
+  border: 1px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+}
+
+.form h1 {
+  background: rgb(102, 102, 102);
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  margin: -16px -16px 16px -16px;
+  font-size:  25px;
+  border-bottom: .5px solid black;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.form input[type="text"],
+.form input[type="url"] {
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 4%;
+  font-size: 17px;
+}
+
+.form input[type="text"]:focus,
+.form input[type="url"]:focus {
+  box-shadow: 0 0 5px black;
+  padding: 4%;
+  border: 1px solid black;
+}
+
+.form button {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 180px;
+  margin: 0 auto;
+  padding: 3%;
+  background: rgb(70, 70, 70);
+  border: none;  
+  border-radius: 3px;
+  font-size: 17px;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.form button:hover {
+  background: #cfcfcf;
+  color: black;
+  border: 1px solid black;
+}
+
+#qrcode-container{
+    display:none;
+}
+
+.qrcode{
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
+.qrcode img{
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(67, 67, 68, 0.25);
+  padding: 4px;
+}
